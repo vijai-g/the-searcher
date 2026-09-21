@@ -1,0 +1,26 @@
+{
+  "name": "the-searcher",
+  "version": "0.1.0",
+  "description": "Traces a feature or topic across Confluence and every system it links out to, from origin to current state, and produces a grouped, intelligently ordered Word dossier that can then be questioned.",
+  "type": "module",
+  "main": "src/cli.js",
+  "bin": { "searcher": "src/cli.js" },
+  "scripts": {
+    "find": "node src/cli.js find",
+    "ask": "node src/cli.js ask",
+    "list": "node src/cli.js list",
+    "export": "node src/cli.js export",
+    "organise": "node src/cli.js organise"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "docx": "^9.0.2",
+    "dotenv": "^16.4.5",
+    "jsdom": "^25.0.1",
+    "mammoth": "^1.12.2",
+    "pdf-parse": "^2.4.5",
+    "turndown": "^7.2.0",
+    "turndown-plugin-gfm": "^1.0.2"
+  },
+  "engines": { "node": ">=20" }
+}
