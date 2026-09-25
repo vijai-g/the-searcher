@@ -232,7 +232,7 @@ src/
 ```
 
 `core/convert`, `rag/*` and the SharePoint resolver are ported from the sibling
-`webCrawler` project, where the Confluence macro handling was worked out.
+`confluence-crawler` project, where the Confluence macro handling was worked out.
 
 ## Output
 

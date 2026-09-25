@@ -71,7 +71,7 @@ dossiers/<slug>/
 ## Working on the code
 
 - Node 24, ESM. Entry point `src/cli.js`. `README.md` has the architecture.
-- `src/core/convert/` and the SharePoint resolver were ported from `../webCrawler`
+- `src/core/convert/` and the SharePoint resolver were ported from `../confluence-crawler`
   and are known-good; prefer not to touch them.
 - Verify changes with `node --check` on edited files and by running
   `npm run export -- "<existing topic>"`, which regenerates the workspace and Word
